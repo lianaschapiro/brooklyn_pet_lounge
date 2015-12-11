@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+nav {
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+}
+
+nav li {
+	float: right;
+	list-style-type: none;
+	margin: 20px;
+	line-height: 35px;
+	font-size: 22px;
+	color: #ffffcc;
+}
+
+.social {
+ vertical-align: center;
+ margin-top: 12px;
+}
+
+#about {
+	margin-top: 75px;
+	background-color: #ffff99;
+	text-align: center;
+	min-height: 330px;
+}
+
+#about h1{
+	padding: 90px 150px 0px;
+}
+
+#about p {
+	margin: 0px 150px -10px;
+}
+
+#about img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+	padding: 90px 150px 0px;
+}
+
+p {
+	font-size: 24px;
+	margin: 0px 150px 40px;
+}
+
+a {
+	color: #ffffcc;
+	text-decoration: none;
+}
+
+a:hover{
+	color:red;
+}
+
+#services {
+	color: black;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #cce5ff;
+}
+
+#services p {
+	margin: 0px auto;
+}
+
+#services img {
+	padding: 10px;
+	padding-top: 60px;
+}
+
+/*#testimonials {
+	background-color: #ffff99;
+}*/
+
+
+#location{
+	/*margin-top: 75px;*/
+	padding-bottom: 75px;
+	background-color: #ffff99;
+	text-align: center;
+	min-height: 330px;
+}
+
+iframe {
+	margin: 0 auto;
+	padding: 10px;
+	background-color: black;
+}
+
+footer {
+	height: 75px;
+	color:#ffffcc;
+	text-align: center;
+}
+
+footer p {
+	line-height: 100px;
+}
